@@ -24,7 +24,7 @@ int main() {
     if (solutions.empty()) {
         std::cout << "There are no solutions!\n";
     } else {
-        std::cout << "The positive solutions are:\n";
+        std::cout << "The solutions are:\n";
         for (const auto& solution : solutions) {
             std::cout << solution << "\n";
         }
